@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "342984490804",
+    "project_id": "safesteps-dbce6",
+    "storage_bucket": "safesteps-dbce6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342984490804:android:c8d39b4c3b46175f762f61",
+        "android_client_info": {
+          "package_name": "com.example.safe_steps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoJ7w7r4cCP0hdXBNABFCLXsFyS0IGBnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
