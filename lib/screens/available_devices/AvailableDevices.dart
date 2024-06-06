@@ -13,16 +13,9 @@ import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
 import 'package:permission_handler/permission_handler.dart';
-import 'package:flutter_sms/flutter_sms.dart';
 
 
-@pragma('vm:entry-point')
-void sending_sms(String text_message, List<String> list_receipents) async {
-  String send_result = await sendSMS(message: text_message, recipients: list_receipents, sendDirect: true).catchError((err){
-    print(err);
-  });
-  print(send_result);
-}
+
 void sendFCMNotification(String recipientToken, String title, String body) async {
   // Define FCM endpoint URL
   final String fcmUrl = 'https://fcm.googleapis.com/fcm/send';
@@ -117,7 +110,6 @@ class _AvailableDevicesState extends State<AvailableDevices> {
           String googleUrl = 'https://www.google.com/maps/search/?api=1&query=${widget.position.latitude},${widget.position.longitude}';
           String message = "Your child is in trouble please help them. \n Their current location :\n ${googleUrl}";
           print(message);
-          // sendSMS(message: "hello message sent", recipients: ["+917985458242"]);
           sendSms(phone: widget.phone_number, msg: message);
 
           // Call sendFCMNotification function with random token, title, and body
