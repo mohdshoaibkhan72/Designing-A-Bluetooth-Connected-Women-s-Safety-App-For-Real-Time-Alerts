@@ -35,7 +35,7 @@ This study introduces a safety app for women, focusing on using Bluetooth to enh
 
 ## Installation
 
-1. Clone the repository: `[git clone https://github.com/yourusername/womens-safety-app.git](https://github.com/mohdshoaibkhan72/Designing-A-Bluetooth-Connected-Women-s-Safety-App-For-Real-Time-Alerts)`
+1. Clone the repository: git clone https://github.com/yourusername/womens-safety-app.git](https://github.com/mohdshoaibkhan72/Designing-A-Bluetooth-Connected-Women-s-Safety-App-For-Real-Time-Alerts)
 2. Navigate to the project directory
 3. Follow the setup instructions in the documentation to configure the app on your smartphone and connect it to a Bluetooth device.
 
